@@ -1,0 +1,95 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_oracleAddress",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "temperature",
+						"type": "string"
+					}
+				],
+				"name": "TemperatureUpdate",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "oracleAddress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "temperature",
+						"type": "string"
+					}
+				],
+				"name": "updateTemperature",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/TemperatureOracle.sol": "TemperatureOracle"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/TemperatureOracle.sol": {
+			"keccak256": "0xf05bf27104130194bd4c1291797b63ab24615ed685440cb1ef0f5bfef49528a7",
+			"urls": [
+				"bzz-raw://a4e15ca2ac2fc4f57273b8dc14c13198f68c295f6ea535e4ae01ab0dce849611",
+				"dweb:/ipfs/QmW8K9NXEGj4zp6SsVVAKkPWpAhDAR4xvsMgTMkZ8NRh3u"
+			]
+		}
+	},
+	"version": 1
+}
